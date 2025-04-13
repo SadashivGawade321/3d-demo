@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fun Website with Spline</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+</head>
+<body>
+  
+  <!-- Header Section -->
+  <header class="navbar">
+    <div class="logo">🧠 CODE</div>
+    <div class="menu-icon" id="menu-toggle">☰</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="#">Company</a>
+      <a href="#">Features</a>
+      <a href="#">Resources</a>
+      <a href="#">Docs</a>
+    </nav>
+    <button class="signin-btn">Sign In</button>
+  </header>
+
+  <!-- Hero Section with Spline 1 -->
+  <section class="hero">
+    <div class="content">
+      <div class="tag">Artificial AI</div>
+      <h1>Email for Developers</h1>
+      <p class="desc">
+        The best way to reach humans instead of spam folders.
+        Deliver transactional and marketing emails at scale.
+      </p>
+      <div class="buttons">
+        <a href="#" class="btn secondary">Documentation</a>
+        <a href="#" class="btn primary">Get Started</a>
+      </div>
+    </div>
+    <div class="spline-model">
+      <spline-viewer url="https://prod.spline.design/ioRExowBu6ZMzctK/scene.splinecode"></spline-viewer>
+    </div>
+  </section>
+
+  <!-- 🎉 New Section with another Spline model -->
+  <section class="extra-spline">
+    <h2 style="text-align: center; margin-bottom: 20px;">Explore More!</h2>
+    <div class="spline-wrapper">
+      <!-- 👇 Replace "undefined" with actual Spline URL -->
+      <spline-viewer url="https://prod.spline.design/v3QSSsJVTROi-mfN/scene.splinecode"></spline-viewer>
+      
+    </div>
+  </section>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.35/bundled/lenis.min.js"></script>
+  
+</body>
+</html>
